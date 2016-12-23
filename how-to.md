@@ -32,6 +32,14 @@ add an index.info file
 [/Page 1 /Title (Front Page) /OUT pdfmark
 [/Page 24 /Title (Back Page) /OUT pdfmark
 
+### Metadata
+
+See http://askubuntu.com/questions/27381/how-to-edit-pdf-metadata-from-command-line
+
+run
+
+gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/prepress -dNOPAUSE -dQUIET -dBATCH -sOutputFile=M001-meta-v03.pdf M001.pdf pdfmarks
+
 ## OCR
 
 Skipped for the moment as free and open source systems don't work well. Help appreciated :-)
