@@ -38,7 +38,7 @@ See http://askubuntu.com/questions/27381/how-to-edit-pdf-metadata-from-command-l
 
 run
 
-gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/prepress -dNOPAUSE -dQUIET -dBATCH -sOutputFile=M001-meta-v03.pdf M001.pdf pdfmarks
+gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/prepress -dNOPAUSE -dQUIET -dBATCH -sOutputFile=M002-ISSN-1356-7748-03.pdf M002-resource.pdf pdfmarks
 
 ## OCR
 
