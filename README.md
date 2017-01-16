@@ -12,6 +12,8 @@ http://scantailor.org/
 
 ## Use imagemagic to bundle pics into PDF
 
+This includes PDF optimisation
+
 http://askubuntu.com/questions/493584/convert-images-to-pdf/557975
 
 convert "*.{png,jpeg}" outfile.pdf
@@ -54,11 +56,4 @@ GOCR and Cuneiform are also worth to try: launchpad.net/cuneiform-linux jocr.sou
 
 poppler to parse PDFs used for PDF2FXL EPUB3 conversion
 
-## PDF optimisation
-
-http://askubuntu.com/questions/113544/how-can-i-reduce-the-file-size-of-a-scanned-pdf-file
-
-Ghostscript does the trick, add your source file name at end.
-
-gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/prepress -dNOPAUSE -dQUIET -dBATCH -sOutputFile=output.pdf yourfile.pdf
 
