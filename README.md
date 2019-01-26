@@ -25,6 +25,8 @@ convert "*.{tif}" M000-master.pdf
 
 ## Add bookmarks and basic metadata
 
+### Bookmarks
+
 Add Bookmarks in a PDF file with Ghostscript
 
 http://ask.xmodulo.com/add-bookmarks-pdf-document-linux.html
@@ -38,7 +40,11 @@ add an index.info file
 
 ### Metadata
 
-See http://askubuntu.com/questions/27381/how-to-edit-pdf-metadata-from-command-line
+Use Ghostview
+
+See https://askubuntu.com/a/723078
+
+create a file 'pdfmarks' with your metadata and then run the command line script below to merge the metadata with your PDF.
 
 run
 
